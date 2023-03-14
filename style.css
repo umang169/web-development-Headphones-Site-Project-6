@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #0f0f10;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap: 180px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    list-style: none;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #1e1e21;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .main-left-hero {
+    position: relative;
+    left: 200px;
+    top: -85px;
+}
+
+.main-left-hero img {
+    height: 400px;
+    width: 250px;
+}
+
+main .main-right-hero {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.main-right-hero img[alt="On Ear"] {
+    width: 300px;
+    margin-left: 100px;
+}
+
+.main-right-hero h1 {
+    font-size: 60px;
+}
+
+.main-right-hero h5 {
+    font-size: 20px;
+}
+
+.Add-to-bag {
+    width: 200px;
+    background-color: #1e1e21;
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: hidden;
+    align-items: center;
+    cursor: pointer;
+}
+
+.platform {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    padding: 0px 150px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.container-1-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.container-1-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bluetooth {
+    margin-left: 50px;
+}
+
+.mic {
+    margin-left: 50px;
+}
+
+.container-1-left p {
+    color: rgb(215, 206, 206);
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.container-2-inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 100px;
+    margin-top: 20px;
+}
+
+.container-2-left img {
+    width: 90%;
+}
+
+.container-2-right p {
+    line-height: 30px;
+}
+
+.container-2-right {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.container-2-right button {
+    background-color: #1e1e21;
+    width: 150px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    background-color: #1e1e21;
+}
+
+.container-3-left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.container-3-left p {
+    color: rgb(215, 206, 206);
+}
+
+.container-3-left button {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 10px;
+    align-items: center;
+    width: 140px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    width: 70%;
+    margin: 120px auto;
+}
+
+.container-4-headphone-color {
+    display: flex;
+    width: 80%;
+    gap: 70px;
+    flex-wrap: wrap;
+    margin-top: 60px;
+
+}
+
+.container-4-box {
+    background-color: #1e1e21;
+    width: 150px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container-4-headphone img {
+    width: 90px;
+    position: relative;
+    left: 30px;
+    top: -40px;
+}
+
+.container-4-box-inside {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container-4-box-inside p {
+    font-size: 13px;
+}
+
+.container-4-box-inside span {
+    font-size: 13px;
+    color: rgb(249, 225, 225);
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+footer h2 {
+    margin-bottom: 13px;
+}
+
+footer p {
+    color: rgb(219, 218, 218);
+}
+
+/* .footer-email-social{display: flex;} */
+.footer-email {
+    display: flex;
+}
+.footer-email form input {
+    padding: 8px;
+    color: white; 
+    background-color: #1e1e21;
+    border: 2px solid #1e1e21;
+  
+}
+
+.footer-email button {
+    background-color: black;
+    border: none;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.footer-email-social{display: flex;
+flex-direction: column;
+gap: 40px;}
+
+.footer-social-media{display: flex;
+gap: 30px;}
+.footer-social-media img{cursor: pointer;}
